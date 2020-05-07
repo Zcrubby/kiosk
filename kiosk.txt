@@ -1,0 +1,22 @@
+! 2020-04-15 https://monitoringpublic.solaredge.com
+monitoringpublic.solaredge.com###se-main-header-btns
+monitoringpublic.solaredge.com###se-main-header-title
+monitoringpublic.solaredge.com###se-main-header-frame
+monitoringpublic.solaredge.com###ext4-comp-1024
+monitoringpublic.solaredge.com##.se-dashboard-site-details.se--panel-border
+monitoringpublic.solaredge.com###se-weather-panel
+monitoringpublic.solaredge.com###se-site-saving-panel
+monitoringpublic.solaredge.com###se-comparative-energy-panel
+||monitoringpublic.solaredge.com/solaredge-web/common/img/se-csv-16.png$image
+
+
+@media screen{
+	body {
+    margin-top:-150px !important;
+    margin-left:-25px !important;
+	}
+}
+
+monitoringpublic.solaredge.com
+
+chromium-browser --noerrdialogs --disable-infobars --kiosk --disable-restore-session-state /home/pi/kiosk.html

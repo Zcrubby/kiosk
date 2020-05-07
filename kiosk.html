@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: -5px;
+  height: auto;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="row">
+  <div class="column">
+  	<h4 style="text-align:center;font-size:150%;font-family: 'Raleway', sans-serif;">Hydraulvägen 12</h4>
+ 	<iframe src="https://monitoringpublic.solaredge.com/solaredge-web/p/site/public?name=Bronsfastigheter%20hydraulvagen%2012#/dashboard" height="950" width="100%" frameborder="0" scrolling="no"></iframe> 
+  </div>
+  <div class="column">
+  	<h4 style="text-align:center;font-size:150%;font-family: 'Raleway', sans-serif;">Kv Bensinen</h4>
+ 	<iframe src="https://monitoringpublic.solaredge.com/solaredge-web/p/site/public?name=Kv%20Bensinen#/dashboard" height="950" width="100%" frameborder="0" scrolling="no"></iframe> 
+  </div>
+  <div class="column">
+  	<h4 style="text-align:center;font-size:150%;font-family: 'Raleway', sans-serif;">Kv Spinnhuset 9</h4>
+ 	<iframe src="https://monitoringpublic.solaredge.com/solaredge-web/p/site/public?name=Kv%20Spinnhuset%209#/dashboard" height="950" width="100%" frameborder="0" scrolling="no"></iframe> 
+  </div>
+</div>
+
+</body>
+</html>
